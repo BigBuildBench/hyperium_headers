@@ -1,0 +1,21 @@
+[package]
+name = "headers"
+version = "0.4.0" # don't forget to update html_root_url
+description = "typed HTTP headers"
+license = "MIT"
+readme = "README.md"
+homepage = "https://hyper.rs"
+repository = "https://github.com/hyperium/headers"
+authors = ["Sean McArthur <sean@seanmonstar.com>"]
+keywords = ["http", "headers", "hyper", "hyperium"]
+categories = ["web-programming"]
+edition = "2018"
+rust-version = "1.56"
+
+[workspace]
+members = ["headers-core"]
+
+[dependencies]
+
+[features]
+nightly = []

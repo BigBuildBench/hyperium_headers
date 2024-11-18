@@ -1,0 +1,15 @@
+[package]
+name = "headers-derive"
+version = "0.1.1" # don't forget to update html_root_url
+description = "derive(Header)"
+license = "MIT"
+readme = "README.md"
+homepage = "https://hyper.rs"
+repository = "https://github.com/hyperium/headers"
+authors = ["Sean McArthur <sean@seanmonstar.com>"]
+
+[lib]
+name = "headers_derive"
+proc-macro = true
+
+[dependencies]
